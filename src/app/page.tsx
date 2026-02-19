@@ -167,13 +167,13 @@ function Navbar() {
 
         <div className="hidden md:flex items-center gap-4">
           <Link
-            href="#"
+            href="/auth/login"
             className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
           >
             Login
           </Link>
           <Link
-            href="/signup"
+            href="/auth/register"
             className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-teal-500 to-cyan-500 px-6 py-2.5 text-sm font-semibold text-white shadow-lg shadow-teal-500/25 hover:shadow-teal-500/40 hover:scale-105 transition-all duration-200"
           >
             Daftar Gratis
@@ -206,7 +206,7 @@ function Navbar() {
             </Link>
           ))}
           <Link
-            href="/signup"
+            href="/auth/register"
             className="block w-full text-center rounded-xl bg-gradient-to-r from-teal-500 to-cyan-500 px-6 py-3 text-sm font-semibold text-white"
           >
             Daftar Gratis
@@ -273,7 +273,7 @@ export default function LandingPage() {
           <FadeIn delay={0.3}>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/signup"
+                href="/auth/register"
                 className="group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-teal-500 to-cyan-500 px-8 py-4 text-base font-bold text-white shadow-2xl shadow-teal-500/30 hover:shadow-teal-500/50 hover:scale-105 transition-all duration-300"
               >
                 Daftar Gratis
@@ -559,7 +559,7 @@ export default function LandingPage() {
                     ))}
                   </ul>
                   <Link
-                    href="/signup"
+                    href="/auth/register"
                     className={`mt-8 block w-full rounded-xl py-3.5 text-center text-sm font-bold transition-all duration-300 ${p.highlight
                         ? "bg-gradient-to-r from-teal-500 to-cyan-500 text-white shadow-lg shadow-teal-500/25 hover:shadow-teal-500/40 hover:scale-[1.02]"
                         : "border border-white/10 text-white hover:bg-white/5"
@@ -630,7 +630,7 @@ export default function LandingPage() {
           </FadeIn>
           <FadeIn delay={0.2}>
             <Link
-              href="/signup"
+              href="/auth/register"
               className="group mt-8 inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-teal-500 to-cyan-500 px-10 py-5 text-lg font-bold text-white shadow-2xl shadow-teal-500/30 hover:shadow-teal-500/50 hover:scale-105 transition-all duration-300"
             >
               Daftar Gratis Sekarang
